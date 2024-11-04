@@ -15,8 +15,8 @@ vector<vector<int>>SumOfTriplets(vector<int>&array , int target){
         int right = n - 1;
 
         while(left<right){
-            int cuurentSum = array[i] + array[left] + array[right];
-            if(cuurentSum == target){
+            int currentSum = array[i] + array[left] + array[right];
+            if(currentSum == target){
                 result.push_back({array[i] , array[left] , array[right]});
                 while (left < right && array[left] == array[left+1])
                     left++;
@@ -25,7 +25,7 @@ vector<vector<int>>SumOfTriplets(vector<int>&array , int target){
                 left++;
                 right--;
             }
-            else if(cuurentSum < target){
+            else if(currentSum < target){
                 left++;
             }
             else{
