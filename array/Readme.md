@@ -53,6 +53,11 @@ Here is a list of the problems included in this repository:
 ### [36. Each row sum of Matrix](2D_array_rowSum.cpp)
 ### [37. Search in Matrix](searchInMatrix.cpp)
 ### [38. Search in Matrix II ](search_in_matrix2.cpp)
+### [39. Remove Duplicates from array](removeDuplicatesArray.cpp)
+### [40. Set Matrix Row and column to zero](SetMatrixZero.cpp)
+
+
+
 
 
 ## Installation
